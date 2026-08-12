@@ -1,0 +1,48 @@
+{
+    "title": "Your Cart",
+    "eyebrow": "Basket",
+    "drawer": {
+        "title": "Cart",
+        "close": "Close cart"
+    },
+    "empty": {
+        "title": "Your cart is empty",
+        "body": "Browse the shop and add something you would cook this week.",
+        "action": "Browse products",
+        "suggestions": "Start with these"
+    },
+    "itemCount_one": "{{count}} item",
+    "itemCount_other": "{{count}} items",
+    "columns": {
+        "product": "Product",
+        "price": "Price",
+        "quantity": "Quantity",
+        "total": "Total"
+    },
+    "summary": {
+        "title": "Order summary",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "freeShipping": "Free",
+        "tax": "Tax",
+        "taxNote": "Prices include Japanese consumption tax.",
+        "total": "Total",
+        "freeShippingProgress": "Add {{amount}} more for free shipping",
+        "freeShippingReached": "Free shipping unlocked."
+    },
+    "stock": {
+        "max": "Only {{count}} in stock"
+    },
+    "actions": {
+        "checkout": "Checkout",
+        "viewCart": "View cart",
+        "continueShopping": "Continue shopping",
+        "remove": "Remove",
+        "increase": "Increase quantity",
+        "decrease": "Decrease quantity"
+    },
+    "announce": {
+        "added": "{{name}} added to your cart",
+        "removed": "{{name}} removed from your cart"
+    }
+}

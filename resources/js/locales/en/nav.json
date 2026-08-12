@@ -1,0 +1,13 @@
+{
+    "primary": {
+        "home": "Home",
+        "shop": "Shop",
+        "recipes": "Recipes",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "aria": {
+        "primary": "Primary",
+        "mobile": "Mobile"
+    }
+}

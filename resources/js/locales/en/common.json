@@ -1,0 +1,64 @@
+{
+    "brand": {
+        "name": "DRIO",
+        "tagline": "Sri Lankan Flavours",
+        "description": "Bringing authentic Sri Lankan flavours to Japan with premium quality ingredients."
+    },
+    "actions": {
+        "shopNow": "Shop Now",
+        "exploreProducts": "Explore Products",
+        "exploreCollection": "Explore Collection",
+        "addToCart": "Add to Cart",
+        "quickView": "Quick View",
+        "learnOurStory": "Learn Our Story",
+        "viewRecipe": "View Recipe",
+        "viewOnInstagram": "View on Instagram",
+        "subscribe": "Subscribe",
+        "search": "Search",
+        "close": "Close",
+        "previous": "Previous",
+        "next": "Next",
+        "openMenu": "Open menu",
+        "closeMenu": "Close menu",
+        "skipToContent": "Skip to content"
+    },
+    "viewAll": {
+        "categories": "View all Categories",
+        "products": "View all Products",
+        "recipes": "View all Recipes"
+    },
+    "search": {
+        "placeholder": "Search products and recipes",
+        "hint": "Press Escape to close."
+    },
+    "labels": {
+        "wishlist": "Wishlist",
+        "cart": "Cart",
+        "addToWishlist": "Add to wishlist",
+        "removeFromWishlist": "Remove from wishlist",
+        "quantity": "Quantity",
+        "language": "Language",
+        "loading": "Loading"
+    },
+    "rating": {
+        "value": "({{count}})",
+        "aria": "Rated {{value}} out of 5",
+        "reviewCount_one": "{{count}} review",
+        "reviewCount_other": "{{count}} reviews"
+    },
+    "badge": {
+        "sale": "Sale",
+        "new": "New",
+        "bestSeller": "Best Seller",
+        "soldOut": "Sold Out",
+        "vegetarian": "Vegetarian"
+    },
+    "states": {
+        "empty": "Nothing here yet.",
+        "error": "Something went wrong. Try again."
+    },
+    "aria": {
+        "breadcrumb": "Breadcrumb",
+        "skipToContent": "Skip to content"
+    }
+}

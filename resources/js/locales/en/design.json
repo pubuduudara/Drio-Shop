@@ -1,0 +1,88 @@
+{
+    "tokens": {
+        "title": "Design Tokens",
+        "eyebrow": "Phase 0",
+        "intro": "Every value below is read from the theme layer, not written inline. If a token changes in app.css, this sheet changes with it.",
+        "sections": {
+            "colour": "Colour",
+            "typography": "Typography",
+            "geometry": "Geometry",
+            "i18n": "Localisation"
+        },
+        "colour": {
+            "swatchToken": "Token",
+            "swatchHex": "Hex"
+        },
+        "typography": {
+            "displayName": "Display — Cormorant Garamond",
+            "bodyName": "Body / UI — Inter",
+            "specimen": "Authentic Sri Lankan Flavours",
+            "bodySpecimen": "Premium dehydrated vegetables, handcrafted spices and authentic Sri Lankan ingredients, shipped across Japan.",
+            "eyebrowSpecimen": "Our Story"
+        },
+        "geometry": {
+            "radius": "Corner radii",
+            "rhythm": "Vertical rhythm",
+            "container": "Container"
+        },
+        "i18n": {
+            "activeLocale": "Active locale",
+            "enabledLocales": "Enabled locales",
+            "clientString": "Client dictionary string",
+            "clientStringValue": "This line came from resources/js/locales/en/design.json.",
+            "serverString": "Server dictionary string",
+            "interpolation": "Interpolation",
+            "interpolationValue": "{{count}} products in {{category}}",
+            "plural": "Pluralisation",
+            "plural_one": "{{count}} review",
+            "plural_other": "{{count}} reviews",
+            "switcherNote": "The locale switcher renders nothing while one locale is enabled. The slot is still in the header."
+        }
+    },
+    "system": {
+        "title": "Design System",
+        "eyebrow": "Phase 1",
+        "intro": "Every primitive, in every variant and state. Interactive elements are live — tab through them to check the focus ring.",
+        "sections": {
+            "buttons": "Buttons",
+            "sectionHeader": "Section Header",
+            "media": "Placeholder & Media",
+            "rating": "Rating",
+            "price": "Price",
+            "badges": "Badges",
+            "iconButtons": "Icon Buttons",
+            "forms": "Form Controls",
+            "icons": "Icon Set",
+            "motif": "Botanical Motif"
+        },
+        "variants": {
+            "primary": "Primary",
+            "outline": "Outline",
+            "ghost": "Ghost",
+            "dark": "Dark",
+            "sizes": "Sizes",
+            "withArrow": "With trailing arrow",
+            "disabled": "Disabled",
+            "loading": "Loading",
+            "onDark": "On a forest surface"
+        },
+        "states": {
+            "default": "Default",
+            "hover": "Hover",
+            "focus": "Focus",
+            "active": "Active",
+            "error": "Error",
+            "filled": "Filled"
+        },
+        "forms": {
+            "inputLabel": "Email address",
+            "inputPlaceholder": "Enter your email address",
+            "inputHint": "We only use this for order updates.",
+            "inputError": "Enter a valid email address.",
+            "selectLabel": "Prefecture",
+            "selectPlaceholder": "Select a prefecture",
+            "textareaLabel": "Order notes",
+            "textareaPlaceholder": "Anything we should know about this delivery?"
+        }
+    }
+}

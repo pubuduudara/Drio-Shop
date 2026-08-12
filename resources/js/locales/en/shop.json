@@ -1,0 +1,41 @@
+{
+    "title": "Shop",
+    "eyebrow": "The Pantry",
+    "description": "Dehydrated vegetables, ground spices and traditional ingredients, shipped from our kitchen to yours across Japan.",
+    "filters": {
+        "title": "Filters",
+        "category": "Category",
+        "allCategories": "All categories",
+        "price": "Price",
+        "anyPrice": "Any price",
+        "under": "Under {{amount}}",
+        "over": "{{amount}} and up",
+        "between": "{{from}} – {{to}}",
+        "dietary": "Dietary",
+        "anyDiet": "Any",
+        "clear": "Clear filters",
+        "apply": "Apply"
+    },
+    "sort": {
+        "label": "Sort by",
+        "featured": "Featured",
+        "price_asc": "Price: low to high",
+        "price_desc": "Price: high to low",
+        "newest": "Newest"
+    },
+    "results_one": "{{count}} product",
+    "results_other": "{{count}} products",
+    "resultsFor_one": "{{count}} product for “{{term}}”",
+    "resultsFor_other": "{{count}} products for “{{term}}”",
+    "pagination": {
+        "label": "Products",
+        "page": "Page {{current}} of {{last}}"
+    },
+    "empty": "No products match those filters. Widen the price range or clear a filter.",
+    "emptyCategory": "Nothing in this category yet. Browse the full shop instead.",
+    "category": {
+        "eyebrow": "Collection",
+        "count_one": "{{count}} product",
+        "count_other": "{{count}} products"
+    }
+}

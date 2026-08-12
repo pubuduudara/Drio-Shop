@@ -1,0 +1,40 @@
+{
+    "title": "Recipes",
+    "eyebrow": "From Our Kitchen",
+    "description": "The dishes these ingredients were grown for, written the way they are cooked at home.",
+    "filters": {
+        "all": "All recipes",
+        "vegetarian": "Vegetarian",
+        "non-vegetarian": "Non-vegetarian",
+        "quick": "Quick",
+        "traditional": "Traditional"
+    },
+    "pagination": {
+        "label": "Recipes",
+        "page": "Page {{current}} of {{last}}"
+    },
+    "empty": "No recipes under that filter yet. Try another.",
+    "meta": {
+        "prep": "Prep",
+        "cook": "Cook",
+        "total": "Total",
+        "serves": "Serves",
+        "minutes": "{{count}} min",
+        "servesValue_one": "{{count}} person",
+        "servesValue_other": "{{count}} people"
+    },
+    "tags": {
+        "vegetarian": "Vegetarian",
+        "traditional": "Traditional",
+        "quick": "Quick"
+    },
+    "ingredients": "Ingredients",
+    "steps": "Method",
+    "step": "Step {{number}}",
+    "shopIngredients": {
+        "title": "Shop the ingredients",
+        "description": "Everything this recipe needs from our shelves.",
+        "empty": "No DRIO products are linked to this recipe yet."
+    },
+    "more": "More recipes"
+}

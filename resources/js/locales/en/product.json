@@ -1,0 +1,34 @@
+{
+    "tabs": {
+        "description": "Description",
+        "details": "Details",
+        "reviews": "Reviews"
+    },
+    "details": {
+        "sku": "SKU",
+        "weight": "Weight",
+        "weightValue": "{{grams}}g",
+        "category": "Category",
+        "dietary": "Dietary",
+        "vegetarian": "Vegetarian"
+    },
+    "stock": {
+        "inStock": "In stock",
+        "lowStock_one": "Only {{count}} left",
+        "lowStock_other": "Only {{count}} left",
+        "outOfStock": "Out of stock"
+    },
+    "gallery": {
+        "label": "Product images",
+        "select": "Show image {{index}}"
+    },
+    "noDescription": "A full description is on its way.",
+    "related": "You may also like",
+    "recipes": "Cook it with",
+    "reviews": {
+        "title": "Reviews",
+        "count_one": "{{count}} review",
+        "count_other": "{{count}} reviews",
+        "empty": "No reviews yet. Be the first to cook with it."
+    }
+}

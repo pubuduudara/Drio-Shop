@@ -1,0 +1,73 @@
+{
+    "title": "Checkout",
+    "eyebrow": "Almost there",
+    "steps": {
+        "contact": "Contact",
+        "shipping": "Shipping",
+        "payment": "Payment",
+        "review": "Review"
+    },
+    "nav": {
+        "back": "Back",
+        "next": "Continue",
+        "step": "Step {{current}} of {{total}}"
+    },
+    "contact": {
+        "title": "Who is this order for?",
+        "name": "Full name",
+        "email": "Email address",
+        "emailHint": "Your confirmation and tracking go here.",
+        "phone": "Phone number",
+        "phoneHint": "Optional. The courier uses it if they cannot find the address."
+    },
+    "shipping": {
+        "title": "Where should it go?",
+        "postalCode": "Postal code",
+        "postalCodeHint": "Seven digits, like 150-0001.",
+        "prefecture": "Prefecture",
+        "prefecturePlaceholder": "Choose a prefecture",
+        "city": "City / Ward",
+        "addressLine1": "Address",
+        "addressLine2": "Building, room number",
+        "addressLine2Hint": "Optional."
+    },
+    "payment": {
+        "title": "How would you like to pay?",
+        "note": "Payment is not connected yet. We record your choice and contact you to arrange it before shipping.",
+        "methods": {
+            "card": "Credit card",
+            "cardHint": "Visa, Mastercard, JCB or Amex.",
+            "konbini": "Konbini payment",
+            "konbiniHint": "Pay at a convenience store using a code we send you.",
+            "bank_transfer": "Bank transfer",
+            "bank_transferHint": "We send our account details with your confirmation.",
+            "cod": "Cash on delivery",
+            "codHint": "Pay the courier when your parcel arrives."
+        }
+    },
+    "review": {
+        "title": "Review your order",
+        "contact": "Contact",
+        "shippingTo": "Shipping to",
+        "paymentMethod": "Payment",
+        "items": "Items",
+        "edit": "Edit",
+        "notes": "Order notes",
+        "notesPlaceholder": "Anything the packer should know.",
+        "placeOrder": "Place order",
+        "placing": "Placing your order"
+    },
+    "errors": {
+        "fixStep": "Something on the {{step}} step needs fixing."
+    },
+    "confirmation": {
+        "eyebrow": "Thank you",
+        "title": "Order confirmed",
+        "orderNumber": "Order {{number}}",
+        "body": "A confirmation is on its way to {{email}}. We pack Monday to Friday and will email tracking as soon as it ships.",
+        "shippingTo": "Shipping to",
+        "items": "What you ordered",
+        "continue": "Keep shopping",
+        "notes": "Notes"
+    }
+}

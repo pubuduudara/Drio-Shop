@@ -1,0 +1,45 @@
+{
+    "columns": {
+        "shop": {
+            "title": "Shop",
+            "allProducts": "All Products",
+            "dehydratedVegetables": "Dehydrated Vegetables",
+            "spicesAndPowders": "Spices & Powders",
+            "traditionalIngredients": "Traditional Ingredients",
+            "giftSets": "Gift Sets"
+        },
+        "recipes": {
+            "title": "Recipes",
+            "allRecipes": "All Recipes",
+            "vegetarian": "Vegetarian",
+            "nonVegetarian": "Non-Vegetarian",
+            "quickRecipes": "Quick Recipes",
+            "traditionalRecipes": "Traditional Recipes"
+        },
+        "information": {
+            "title": "Information",
+            "aboutUs": "About Us",
+            "ourStory": "Our Story",
+            "blog": "Blog",
+            "faq": "FAQ",
+            "contactUs": "Contact Us"
+        },
+        "customerCare": {
+            "title": "Customer Care",
+            "shippingInformation": "Shipping Information",
+            "returnsAndExchanges": "Returns & Exchanges",
+            "paymentMethods": "Payment Methods",
+            "termsAndConditions": "Terms & Conditions",
+            "privacyPolicy": "Privacy Policy"
+        }
+    },
+    "payments": {
+        "title": "We Accept"
+    },
+    "social": {
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "youtube": "YouTube"
+    },
+    "copyright": "© {{year}} DRIO. All rights reserved."
+}

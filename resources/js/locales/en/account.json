@@ -1,0 +1,59 @@
+{
+    "profile": {
+        "title": "Profile settings",
+        "heading": "Profile information",
+        "description": "Update your name and email address.",
+        "name": "Name",
+        "email": "Email address",
+        "save": "Save",
+        "saved": "Saved",
+        "namePlaceholder": "Full name",
+        "emailPlaceholder": "Email address",
+        "unverified": "Your email address is unverified.",
+        "resend": "Click here to re-send the verification email.",
+        "resent": "A new verification link is on its way to your inbox."
+    },
+    "security": {
+        "title": "Security settings",
+        "heading": "Update password",
+        "description": "Use a long, random password to stay secure.",
+        "currentPassword": "Current password",
+        "newPassword": "New password",
+        "confirmPassword": "Confirm password",
+        "save": "Save password",
+        "saved": "Saved"
+    },
+    "appearance": {
+        "title": "Appearance settings",
+        "heading": "Appearance",
+        "description": "Choose how the console looks on this device.",
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+    },
+    "delete": {
+        "heading": "Delete account",
+        "description": "Deleting your account removes it and everything attached to it.",
+        "warning": "Warning",
+        "warningBody": "This cannot be undone. Enter your password to confirm.",
+        "action": "Delete account",
+        "confirmTitle": "Delete your account?",
+        "confirmBody": "Once deleted, the account and its data are gone for good. Enter your password to confirm.",
+        "password": "Password",
+        "cancel": "Cancel",
+        "confirm": "Delete account"
+    },
+    "nav": {
+        "section": "Account",
+        "platform": "Platform",
+        "settings": "Settings",
+        "settingsDescription": "Manage your profile and account.",
+        "settingsAria": "Account settings",
+        "profile": "Profile",
+        "security": "Security",
+        "appearance": "Appearance"
+    },
+    "dashboard": {
+        "title": "Dashboard"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "about": {
+        "eyebrow": "Our Story",
+        "title": "From Our Island To Your Table",
+        "description": "DRIO began with a suitcase of curry powder and a long way from home.",
+        "intro": {
+            "heading": "A pantry that tastes like home",
+            "body": "Every jar starts on a smallholding in Sri Lanka — jackfruit and breadfruit sliced by hand, chillies dried in the sun, spices roasted in small batches the way they have been for generations. Nothing is rushed, because the flavour is in the waiting.",
+            "second": "We pack for export quality and ship across Japan, so a Colombo kitchen is a few days away wherever you cook."
+        },
+        "values": {
+            "title": "What we hold to",
+            "sourcing": {
+                "title": "Grown, not manufactured",
+                "body": "We buy from the families who farm it, at a price that keeps them farming."
+            },
+            "process": {
+                "title": "Dried, never diluted",
+                "body": "Sun and air do the work. No fillers, no colouring, no anti-caking agents."
+            },
+            "delivery": {
+                "title": "Packed for the journey",
+                "body": "Sealed to survive the trip and to keep its aroma the day you open it."
+            }
+        },
+        "cta": {
+            "title": "Start with the shelf",
+            "body": "Browse the pantry, or read what to cook with it first.",
+            "shop": "Shop the pantry",
+            "recipes": "Read the recipes"
+        }
+    },
+    "contact": {
+        "eyebrow": "Get In Touch",
+        "title": "Contact Us",
+        "description": "Questions about an order, a wholesale enquiry, or a recipe that isn't working — write and we will answer.",
+        "details": {
+            "title": "Reach us directly",
+            "email": "Email",
+            "phone": "Phone",
+            "address": "Address",
+            "instagram": "Instagram",
+            "hours": "We reply within two business days, Monday to Friday."
+        },
+        "form": {
+            "title": "Send a message",
+            "name": "Your name",
+            "email": "Email address",
+            "subject": "Subject",
+            "message": "Message",
+            "messagePlaceholder": "Tell us what you need.",
+            "submit": "Send message",
+            "sending": "Sending",
+            "success": "Message received. We reply within two business days."
+        }
+    }
+}

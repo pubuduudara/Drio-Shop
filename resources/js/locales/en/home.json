@@ -1,0 +1,67 @@
+{
+    "hero": {
+        "headline": {
+            "line1": "Authentic",
+            "line2": "Sri Lankan Flavours,",
+            "line3": "Delivered Across Japan"
+        },
+        "body": "Premium dehydrated vegetables, handcrafted spices and authentic Sri Lankan ingredients.",
+        "slideCounter": "{{current}} / {{total}}",
+        "aria": {
+            "carousel": "Hero slides",
+            "goToSlide": "Go to slide {{index}}"
+        }
+    },
+    "categories": {
+        "title": "Featured Categories"
+    },
+    "bestSellers": {
+        "title": "Best Sellers"
+    },
+    "whyChoose": {
+        "title": "Why Choose DRIO",
+        "features": {
+            "imported": { "label": "Imported from Sri Lanka" },
+            "natural": { "label": "100% Natural Ingredients" },
+            "homemade": { "label": "Homemade Recipes" },
+            "delivery": { "label": "Fast Delivery Across Japan" },
+            "quality": { "label": "Premium Export Quality" }
+        }
+    },
+    "story": {
+        "eyebrow": "Our Story",
+        "title": "From Our Island To Your Table",
+        "paragraph1": "DRIO brings the authentic taste of Sri Lanka to Japan. Our products are crafted with love using traditional recipes passed down through generations.",
+        "paragraph2": "We work closely with local farmers and artisans to bring you the finest quality ingredients.",
+        "panelCaption": "Taste the Tradition of Sri Lanka"
+    },
+    "recipes": {
+        "title": "Recipe Inspiration"
+    },
+    "reviews": {
+        "title": "Customer Reviews",
+        "attribution": "— {{name}}, {{city}}",
+        "aria": {
+            "carousel": "Customer reviews",
+            "previous": "Previous reviews",
+            "next": "Next reviews"
+        }
+    },
+    "instagram": {
+        "title": "Follow Our Journey",
+        "handle": "@drio.srilankanflavours"
+    },
+    "newsletter": {
+        "title": "Stay Connected With DRIO",
+        "subhead": "Get the latest recipes, product updates and special offers.",
+        "emailLabel": "Email address",
+        "emailPlaceholder": "Enter your email address",
+        "privacy": "We respect your privacy. Unsubscribe at any time.",
+        "success": "You are on the list. Watch your inbox for the next dispatch.",
+        "errors": {
+            "required": "Enter an email address.",
+            "invalid": "Enter a valid email address.",
+            "duplicate": "That address is already subscribed."
+        }
+    }
+}

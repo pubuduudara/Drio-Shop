@@ -1,0 +1,462 @@
+{
+    "shell": {
+        "title": "DRIO Admin",
+        "signOut": "Sign out",
+        "toggleSidebar": "Menu",
+        "skipToContent": "Skip to content"
+    },
+    "nav": {
+        "dashboard": "Dashboard",
+        "products": "Products",
+        "categories": "Categories",
+        "orders": "Orders",
+        "recipes": "Recipes",
+        "reviews": "Reviews",
+        "heroSlides": "Hero Slides",
+        "subscribers": "Subscribers",
+        "settings": "Settings"
+    },
+    "auth": {
+        "title": "Sign in to DRIO Admin",
+        "description": "Enter the email and password for your console account.",
+        "email": "Email address",
+        "emailPlaceholder": "you@drio.jp",
+        "password": "Password",
+        "passwordPlaceholder": "Password",
+        "remember": "Keep me signed in",
+        "submit": "Sign in",
+        "forgot": "Forgot your password?",
+        "noSelfServe": "Accounts are created by an existing administrator.",
+        "forgotTitle": "Forgot your password?",
+        "forgotDescription": "Enter your email and we will send a reset link.",
+        "sendResetLink": "Email password reset link",
+        "returnTo": "Or, return to",
+        "logIn": "sign in",
+        "resetTitle": "Choose a new password",
+        "resetDescription": "Pick something you have not used before.",
+        "newPassword": "New password",
+        "confirmPassword": "Confirm password",
+        "resetSubmit": "Save new password",
+        "confirmTitle": "Confirm your password",
+        "confirmDescription": "This is a secure area. Confirm your password before continuing.",
+        "confirmSubmit": "Confirm password",
+        "verifyTitle": "Verify your email address",
+        "verifyDescription": "Click the link we just emailed you.",
+        "verifySent": "A new verification link is on its way to your inbox.",
+        "verifyResend": "Resend verification email",
+        "signOut": "Sign out"
+    },
+    "actions": {
+        "create": "Create",
+        "save": "Save changes",
+        "saved": "Changes saved",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "deleted": "Deleted",
+        "search": "Search",
+        "clear": "Clear",
+        "back": "Back",
+        "upload": "Upload images",
+        "saveOrder": "Save order"
+    },
+    "toast": {
+        "saved": "Changes saved"
+    },
+    "translatable": {
+        "locales": "Language",
+        "untranslated": "Not translated",
+        "fallbackHint": "Placeholder shows the {{locale}} value"
+    },
+    "confirm": {
+        "title": "Delete {{name}}?",
+        "body": "This cannot be undone.",
+        "confirm": "Delete",
+        "cancel": "Keep it"
+    },
+    "pagination": {
+        "label": "Pagination",
+        "previous": "Previous",
+        "next": "Next",
+        "range": "{{from}}–{{to}} of {{total}}"
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "revenue": {
+            "title": "Revenue this month",
+            "orders_one": "from {{count}} order",
+            "orders_other": "from {{count}} orders"
+        },
+        "catalogue": {
+            "title": "Catalogue",
+            "active": "{{count}} active",
+            "inactive": "{{count}} inactive"
+        },
+        "ordersByStatus": "Orders by status",
+        "lowStock": {
+            "title": "Low stock",
+            "description": "Fewer than {{threshold}} units left.",
+            "empty": "Every active product is above the low-stock line."
+        },
+        "recentOrders": {
+            "title": "Recent orders",
+            "empty": "No orders yet. They appear here as soon as checkout goes live.",
+            "columns": {
+                "number": "Order",
+                "customer": "Customer",
+                "status": "Status",
+                "total": "Total",
+                "placed": "Placed"
+            }
+        },
+        "bestSellers": {
+            "title": "Best selling products",
+            "units_one": "{{count}} unit",
+            "units_other": "{{count}} units",
+            "empty": "Sales figures appear once orders start arriving."
+        }
+    },
+    "orderStatus": {
+        "pending": "Pending",
+        "paid": "Paid",
+        "processing": "Processing",
+        "shipped": "Shipped",
+        "delivered": "Delivered",
+        "cancelled": "Cancelled",
+        "refunded": "Refunded"
+    },
+    "products": {
+        "title": "Products",
+        "count_one": "{{count}} product",
+        "count_other": "{{count}} products",
+        "create": "New product",
+        "createTitle": "New product",
+        "editTitle": "Edit product",
+        "searchPlaceholder": "Name, SKU or slug",
+        "allCategories": "All categories",
+        "allStatuses": "Any status",
+        "active": "Active",
+        "inactive": "Inactive",
+        "empty": "No products match those filters. Clear the search or widen the category filter.",
+        "emptyCatalogue": "No products yet. Create the first one.",
+        "columns": {
+            "image": "Image",
+            "name": "Product",
+            "sku": "SKU",
+            "category": "Category",
+            "price": "Price",
+            "stock": "Stock",
+            "status": "Status",
+            "actions": "Actions"
+        },
+        "selectAll": "Select all products on this page",
+        "selectOne": "Select {{name}}",
+        "selected_one": "{{count}} selected",
+        "selected_other": "{{count}} selected",
+        "bulk": {
+            "activate": "Activate",
+            "deactivate": "Deactivate",
+            "delete": "Delete",
+            "confirmTitle": "Delete {{count}} products?",
+            "confirmBody": "The products are removed from the storefront and can be restored from the database."
+        },
+        "quickEdit": {
+            "price": "Price for {{name}}",
+            "stock": "Stock for {{name}}",
+            "hint": "Press Enter to save"
+        },
+        "lowStock": "Low",
+        "outOfStock": "Out",
+        "bestSeller": "Best seller",
+        "tabs": {
+            "details": "Details",
+            "pricing": "Pricing",
+            "inventory": "Inventory",
+            "media": "Media",
+            "flags": "Flags"
+        },
+        "fields": {
+            "name": "Name",
+            "slug": "Slug",
+            "slugHint": "Leave blank to derive it from the name.",
+            "category": "Category",
+            "shortDescription": "Short description",
+            "description": "Description",
+            "price": "Price",
+            "priceHint": "Whole yen. Stored as integer minor units.",
+            "compareAtPrice": "Compare-at price",
+            "compareAtPriceHint": "Shown struck through beside the price. Leave blank for no sale.",
+            "currency": "Currency",
+            "sku": "SKU",
+            "stock": "Stock quantity",
+            "weight": "Weight (grams)",
+            "sortOrder": "Sort order",
+            "isActive": "Active",
+            "isActiveHint": "Inactive products are hidden from the storefront.",
+            "isBestSeller": "Best seller",
+            "isBestSellerHint": "Shows in the homepage Best Sellers row.",
+            "isVegetarian": "Vegetarian"
+        },
+        "media": {
+            "title": "Images",
+            "description": "Drop files here or choose them. The primary image is the one the storefront card and hero use.",
+            "empty": "No images yet. The storefront shows a labelled placeholder until one is uploaded.",
+            "primary": "Primary",
+            "setPrimary": "Set as primary",
+            "remove": "Remove image",
+            "dropHere": "Drop images to upload",
+            "reorderHint": "Drag a tile to reorder the gallery, then save.",
+            "moveLeft": "Move earlier",
+            "moveRight": "Move later",
+            "saveOnlyOnExisting": "Save the product first, then add images."
+        }
+    },
+    "categories": {
+        "title": "Categories",
+        "create": "New category",
+        "createTitle": "New category",
+        "editTitle": "Edit category",
+        "empty": "No categories yet. Create the first one.",
+        "columns": {
+            "order": "Order",
+            "icon": "Icon",
+            "name": "Category",
+            "slug": "Slug",
+            "products": "Products",
+            "featured": "Featured",
+            "actions": "Actions"
+        },
+        "reorderHint": "Drag a row by its handle to reorder, then save the order.",
+        "dragHandle": "Reorder {{name}}",
+        "moveUp": "Move up",
+        "moveDown": "Move down",
+        "featured": "Featured",
+        "notFeatured": "Not featured",
+        "hasProducts": "Holds {{count}} products",
+        "fields": {
+            "name": "Name",
+            "slug": "Slug",
+            "slugHint": "Leave blank to derive it from the name.",
+            "description": "Description",
+            "icon": "Icon",
+            "iconHint": "Drawn as an SVG on the storefront category card.",
+            "isFeatured": "Feature on the homepage",
+            "isFeaturedHint": "Featured categories fill the homepage Featured Categories row.",
+            "sortOrder": "Sort order"
+        },
+        "icons": {
+            "leaf": "Leaf",
+            "powder": "Powder",
+            "chilli": "Chilli",
+            "spice": "Spice"
+        },
+        "deleteBlocked": "Move its products first"
+    },
+    "list": {
+        "moveUp": "Move up",
+        "moveDown": "Move down",
+        "remove": "Remove row"
+    },
+    "orders": {
+        "title": "Orders",
+        "count_one": "{{count}} order",
+        "count_other": "{{count}} orders",
+        "searchPlaceholder": "Order number, name or email",
+        "allStatuses": "Any status",
+        "from": "From",
+        "to": "To",
+        "empty": "No orders match those filters. Widen the date range or clear the status.",
+        "emptyAll": "No orders yet. They appear here as customers check out.",
+        "columns": {
+            "number": "Order",
+            "customer": "Customer",
+            "status": "Status",
+            "items": "Items",
+            "total": "Total",
+            "placed": "Placed",
+            "item": "Item",
+            "quantity": "Qty",
+            "unitPrice": "Unit price",
+            "lineTotal": "Line total"
+        },
+        "items": "Line items",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "total": "Total",
+        "status": "Status",
+        "moveTo": "Move to",
+        "note": "Note",
+        "notePlaceholder": "What changed, and why.",
+        "saveStatus": "Save status",
+        "terminal": "This order has reached a final status and cannot move on.",
+        "statusHistory": "History",
+        "noNotes": "Nothing recorded yet.",
+        "customer": "Customer",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "shippingAddress": "Shipping address",
+        "packingSlip": "Packing slip"
+    },
+    "recipes": {
+        "title": "Recipes",
+        "count_one": "{{count}} recipe",
+        "count_other": "{{count}} recipes",
+        "create": "New recipe",
+        "createTitle": "New recipe",
+        "editTitle": "Edit recipe",
+        "searchPlaceholder": "Recipe title",
+        "empty": "No recipes match that search.",
+        "emptyAll": "No recipes yet. Create the first one.",
+        "published": "Published",
+        "draft": "Draft",
+        "minutes": "{{count}} min",
+        "columns": {
+            "title": "Recipe",
+            "slug": "Slug",
+            "time": "Time",
+            "serves": "Serves",
+            "products": "Products",
+            "status": "Status",
+            "actions": "Actions"
+        },
+        "tags": {
+            "vegetarian": "Vegetarian",
+            "traditional": "Traditional",
+            "quick": "Quick"
+        },
+        "tabs": {
+            "details": "Details",
+            "method": "Method",
+            "products": "Products",
+            "flags": "Flags"
+        },
+        "fields": {
+            "title": "Title",
+            "slug": "Slug",
+            "slugHint": "Leave blank to derive it from the title.",
+            "intro": "Intro",
+            "prepMinutes": "Prep (minutes)",
+            "cookMinutes": "Cook (minutes)",
+            "serves": "Serves",
+            "ingredients": "Ingredients",
+            "addIngredient": "Add ingredient",
+            "ingredientPlaceholder": "200g dehydrated jackfruit",
+            "steps": "Method",
+            "addStep": "Add step",
+            "stepPlaceholder": "Soak the jackfruit in warm water for 20 minutes.",
+            "productsHint": "These fill the \"shop the ingredients\" block on the recipe page.",
+            "productSearch": "Filter products",
+            "noProducts": "No products match that filter.",
+            "isPublished": "Published",
+            "isPublishedHint": "Drafts are hidden from the storefront.",
+            "isVegetarian": "Vegetarian",
+            "isTraditional": "Traditional",
+            "isQuick": "Quick",
+            "sortOrder": "Sort order"
+        }
+    },
+    "reviews": {
+        "title": "Reviews",
+        "pending_one": "{{count}} review waiting for a decision",
+        "pending_other": "{{count}} reviews waiting for a decision",
+        "allClear": "Nothing waiting for a decision.",
+        "filterLabel": "Filter reviews",
+        "filters": {
+            "all": "All",
+            "pending": "Pending",
+            "published": "Published",
+            "featured": "Featured"
+        },
+        "empty": "No reviews under that filter.",
+        "featured": "On the homepage",
+        "brandReview": "About DRIO",
+        "actions": {
+            "publish": "Approve",
+            "unpublish": "Unapprove",
+            "feature": "Feature",
+            "unfeature": "Unfeature"
+        }
+    },
+    "heroSlides": {
+        "title": "Hero Slides",
+        "description": "Drag a row by its handle to reorder, then save the order.",
+        "create": "New slide",
+        "createTitle": "New hero slide",
+        "editTitle": "Edit hero slide",
+        "empty": "No slides yet. The homepage hero needs at least one.",
+        "active": "Active",
+        "inactive": "Hidden",
+        "moveUp": "Move up",
+        "moveDown": "Move down",
+        "columns": {
+            "order": "Order",
+            "headline": "Headline",
+            "cta": "Primary link",
+            "status": "Status",
+            "actions": "Actions"
+        },
+        "sections": {
+            "copy": "Copy",
+            "actions": "Calls to action",
+            "display": "Display"
+        },
+        "fields": {
+            "headline": "Headline",
+            "headlineHint": "Line breaks control where the headline wraps on the hero.",
+            "subhead": "Subhead",
+            "primaryCtaLabel": "Primary button label",
+            "primaryCtaHref": "Primary button link",
+            "secondaryCtaLabel": "Secondary button label",
+            "secondaryCtaHref": "Secondary button link",
+            "hrefHint": "Links must be app paths starting with a slash, like /shop.",
+            "isActive": "Active",
+            "isActiveHint": "Hidden slides stay out of the homepage rotation.",
+            "sortOrder": "Sort order"
+        },
+        "media": {
+            "title": "Image",
+            "description": "Drop a file here or choose one. A new upload replaces the current image.",
+            "upload": "Upload image",
+            "dropHere": "Drop image to upload",
+            "remove": "Remove image",
+            "saveOnlyOnExisting": "Save the slide first, then add an image."
+        }
+    },
+    "subscribers": {
+        "title": "Subscribers",
+        "count_one": "{{count}} subscriber",
+        "count_other": "{{count}} subscribers",
+        "export": "Export CSV",
+        "searchPlaceholder": "Email address",
+        "empty": "No subscribers match that search.",
+        "emptyAll": "No subscribers yet. The homepage newsletter form feeds this list.",
+        "columns": {
+            "email": "Email",
+            "locale": "Locale",
+            "confirmed": "Confirmed",
+            "subscribed": "Subscribed"
+        }
+    },
+    "settings": {
+        "title": "Settings",
+        "description": "What the client changes without a deploy.",
+        "shippingHint": "Amounts in whole {{currency}}, stored as integer minor units.",
+        "sections": {
+            "shipping": "Shipping",
+            "contact": "Contact details",
+            "social": "Social links"
+        },
+        "fields": {
+            "shippingFlatRate": "Flat shipping rate",
+            "freeShippingThreshold": "Free shipping over",
+            "freeShippingThresholdHint": "Zero disables free shipping entirely.",
+            "contactEmail": "Email",
+            "contactPhone": "Phone",
+            "contactAddress": "Address",
+            "instagramHandle": "Instagram handle",
+            "instagramUrl": "Instagram URL",
+            "facebookUrl": "Facebook URL",
+            "youtubeUrl": "YouTube URL"
+        }
+    }
+}
